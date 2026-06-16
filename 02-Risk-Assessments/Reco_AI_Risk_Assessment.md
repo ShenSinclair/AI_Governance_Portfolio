@@ -231,7 +231,7 @@ While the platform can strengthen AI governance capabilities, implementation int
 
 ---
 
-# Key Governance Observations
+# 7. Key Governance Observations
 
 1. Reco AI introduces moderate third-party and integration-related risks that should be evaluated through established vendor management processes.
 
@@ -245,28 +245,17 @@ While the platform can strengthen AI governance capabilities, implementation int
 
 ---
 
-# Sources and Assessment Note
-
-**Sources:** This assessment was developed using publicly available vendor documentation, product information, technical resources, and governance analysis available at the time of review.
-
-**Note:** Due to the rapidly evolving nature of AI technologies, platform capabilities, integrations, and regulatory requirements may change over time. A re-evaluation should be conducted prior to final approval, procurement, or production deployment to validate current functionality, risks, and governance considerations.
-
 ### Risk Distribution Visualization
 
 *Scoring used for visualization only: High = 3, Medium = 2, Low = 1. This chart provides a quick executive view of the relative inherent risk concentrations across the assessed domains.*
 
 
-Reco AI inherent risk profile
+![Reco AI Inherent Risk Profile](https://github.com/ShenSinclair/AI_Governance_Portfolio/blob/d52bd779de6fe5247e9c40ee2f7481932d150b50/02-Risk-Assessments/Reco%20AI%20inherent%20risk%20profile.png)
 
-Relative inherent risk ratings identified during the assessment.
+---
 
-| Category	       |Score     |
-|----------------- |----------|
-| Security	       |     3    |
-| Privacy	         |     2    |
-| Compliance	     |     2    |
-| Third-Party	     |     3    |
-| Data Protection	 |     3    |
-| Human Oversight  |	   2    |
-| Operational	     |     2    |
-| Reputational     |	   3
+# Sources and Assessment Note
+
+**Sources:** This assessment was developed using publicly available vendor documentation, product information, technical resources, and governance analysis available at the time of review.
+
+**Note:** Due to the rapidly evolving nature of AI technologies, platform capabilities, integrations, and regulatory requirements may change over time. A re-evaluation should be conducted prior to final approval, procurement, or production deployment to validate current functionality, risks, and governance considerations.
