@@ -35,6 +35,11 @@ As AI adoption accelerates across business functions, organizations face increas
 
 Reco AI provides organizations with centralized visibility and governance capabilities for managing AI technologies operating across enterprise environments.
 
+### Scope of Use
+
+Reco AI is intended to support enterprise AI governance, security, and risk management activities by providing visibility into AI-enabled applications, AI agents, copilots, and SaaS integrations operating within the organization. The platform is used to identify, inventory, monitor, and assess AI-related risks, support compliance and audit activities, and enhance oversight of AI adoption across the enterprise. Reco AI is not intended to develop, train, or independently make business decisions on behalf of the organization and should be used in conjunction with established governance, security, privacy, and risk management processes.
+
+
 ### Core Capabilities
 
 | Capability              | Description                                                              |
