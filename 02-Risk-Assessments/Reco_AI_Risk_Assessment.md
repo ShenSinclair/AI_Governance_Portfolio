@@ -256,6 +256,6 @@ While the platform can strengthen AI governance capabilities, implementation int
 
 # Sources and Assessment Note
 
-**Sources:** This assessment was developed using publicly available vendor documentation, product information, technical resources, and governance analysis available at the time of review.
+***Sources:** This assessment was developed using publicly available vendor documentation, product information, technical resources, and governance analysis available at the time of review.*
 
-**Note:** Due to the rapidly evolving nature of AI technologies, platform capabilities, integrations, and regulatory requirements may change over time. A re-evaluation should be conducted prior to final approval, procurement, or production deployment to validate current functionality, risks, and governance considerations.
+***Note:** Due to the rapidly evolving nature of AI technologies, platform capabilities, integrations, and regulatory requirements may change over time. A re-evaluation should be conducted prior to final approval, procurement, or production deployment to validate current functionality, risks, and governance considerations.*
