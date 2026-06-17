@@ -6,8 +6,8 @@
 | -------------------- | --------------------------------------------------------------------------------- |
 | **Platform Name**    | Reco AI                                                                           |
 | **Vendor**           | Reco                                                                              |
-| **Business Owner**   | Sheniell Sinclair, AI Governance Lead                                             |
-| **Technical Owner**  | Jonhathan Green, AI Platform Engineering Lead                                     |
+| **Business Owner**   | Sheniell Sinclair, AI Governance Lead. Information Security/ AI Governance Office                                           |
+| **Technical Owner**  | Jonhathan Green, AI Security Engineering Lead                                   |
 | **Platform Type**    | AI Governance and Security Platform                                               |
 | **Assessment Date**  | June 2026                                                                         |
 | **Version**          | 1.0                                                                               |
@@ -17,7 +17,9 @@
 
 ## Platform Purpose
 
-Reco AI is an AI governance and security platform designed to provide visibility into organizational AI usage, AI-enabled SaaS applications, AI agents, copilots, and associated enterprise data flows. The platform supports AI discovery, inventory management, governance monitoring, access governance, risk identification, and compliance readiness activities.
+Reco AI is an enterprise AI governance and security platform that provides visibility into AI-enabled applications, AI agents, copilots, and SaaS integrations across the organization. The platform enables organizations to discover AI technologies, monitor AI adoption, identify governance and security risks, and support compliance and audit activities through centralized oversight and continuous monitoring.
+
+The platform is intended for use by AI Governance, Information Security, Governance, Risk and Compliance (GRC), Privacy, Identity and Access Management (IAM), Internal Audit, and Executive Leadership teams.
 
 ---
 
@@ -26,11 +28,12 @@ Reco AI is an AI governance and security platform designed to provide visibility
 The platform may be used for:
 
 * AI discovery and inventory management
+* Monitoring AI-enabled SaaS applications and AI agents
 * Shadow AI identification and monitoring
 * AI governance and compliance oversight
 * AI risk monitoring and reporting
 * Identity and access governance
-* Third-party AI visibility
+* Third-party/ Enterprise AI visibility
 * Security monitoring and investigation
 * Audit and compliance support
 * Executive governance reporting
@@ -48,6 +51,8 @@ The platform should not be used for:
 * Sole-source risk acceptance decisions
 * Collection or monitoring of information beyond approved organizational policies
 * Processing sensitive data outside approved governance and privacy requirements
+* Sharing confidential organizational information with unauthorized users or third parties
+* Circumventing established AI governance or security policies
 
 ---
 
@@ -55,7 +60,7 @@ The platform should not be used for:
 
 ### Data Types Potentially Processed
 
-* User identity information
+* User identity and access information
 * Account and entitlement metadata
 * SaaS application metadata
 * Configuration information
@@ -63,6 +68,16 @@ The platform should not be used for:
 * AI application inventory data
 * AI usage metadata
 * Risk findings and governance records
+
+### Restricted Data
+
+The following data requires additional review or approval before use:
+* Personally Identifiable Information (PII)
+* Protected Health Information (PHI)
+* Payment Card Industry (PCI) data
+* Export-controlled information
+* Regulated customer information
+* Confidential intellectual property beyond approved governance activities
 
 ### Data Sensitivity Considerations
 
@@ -78,6 +93,14 @@ The platform should not be used for:
 * Data retention requirements
 * Periodic access reviews
 * Vendor data protection validation
+
+### Governance Requirements
+
+* Data classification must be completed before onboarding new integrations.
+* Access shall follow Role-Based Access Control (RBAC) principles.
+* Data retention shall align with organizational records management requirements.
+* Audit logging shall be enabled for administrative and governance activities.
+* Privacy and security reviews shall be completed for new data sources.
 
 ---
 
@@ -140,11 +163,13 @@ The platform should not be used for:
 Human review is required for:
 
 * Governance decisions
+* Approval of new AI platform integrations
 * Risk acceptance decisions
 * Compliance determinations
-* Security investigations
+* Investigation of security and compliance alerts
 * AI inventory validation
-* Escalation of high-risk findings
+* Approval of policy exceptions
+* Escalation/ review of high-risk findings
 * Executive reporting and risk communication
 
 Platform outputs should be treated as decision-support information and should not replace human judgment, governance review, or established organizational approval processes.
@@ -161,6 +186,10 @@ Platform outputs should be treated as decision-support information and should no
 * Integration changes
 * Permission changes
 * High-risk alerts
+* Incident tracking and response
+* Vendor performance monitoring
+* Governance dashboard reviews
+* Audit log reviews
 
 ### Periodic Reviews
 
@@ -172,31 +201,49 @@ Platform outputs should be treated as decision-support information and should no
 | Governance Review       | Annually                         |
 | Risk Assessment Review  | Annually or Upon Material Change |
 | Privacy Review          | As Required                      |
+| Control Effectiveness Reviews | Annually or Upon Material Change |
 
 ---
 
 ## Approval Recommendation
 
-### Current Assessment Status
+### Approve with conditions
+
+## Justification:
+The Platform Assessment determined that Reco AI provides significant value by improving organizational visibility into AI technologies, supporting AI governance, strengthening identity governance, and enabling continuous monitoring of AI-enabled SaaS applications.
+
+The Risk Assessment identified manageable security, privacy, compliance, operational, and third-party risks. While no critical risks were identified, successful deployment depends on the implementation of appropriate governance controls, security safeguards, privacy protections, and ongoing monitoring processes.
+
+Approval is recommended contingent upon completion of the organization's required security, privacy, vendor risk, and governance reviews, as well as implementation of the required controls identified within the organization's AI Governance Framework.
 
 **Governance Assessment Completed**
 
 This platform governance card documents the intended purpose, governance considerations, risks, controls, and oversight requirements associated with Reco AI.
 
-### Approval Prerequisites
+## Model Card Summary
+| Category	                                   | Status  |
+| -------------------------------------------- | ------  |
+| Platform Purpose Defined	                   |   ✓    |
+| Intended Use Documented	                     |   ✓    |
+| Prohibited Use Defined	                     |   ✓    |
+| Data Governance Requirements Established	   |   ✓    |
+| Key Risks Identified	                       |   ✓    |
+| Required Controls Defined	                   |   ✓    |
+| Human Oversight Required	                   |   ✓    |
+| Monitoring Requirements Established          | 	 ✓    |
+| Governance Recommendation Documented	       |   ✓    |
 
-Prior to production deployment, the following activities should be completed:
+### Governanace Lifecycle
+| Lifecycle Phase | Governance Activity                                   |
+| --------------- | ----------------------------------------------------- |
+| Intake          | Business justification and platform registration      |
+| Assessment      | Platform, risk, privacy, and vendor assessments       |
+| Approval        | Governance committee review and authorization         |
+| Deployment      | Controlled implementation with required controls      |
+| Monitoring      | Continuous monitoring, logging, and periodic reviews  |
+| Reassessment    | Annual review or upon material platform changes       |
+| Retirement      | Decommission platform, revoke access, archive records |
 
-* Security Review
-* Privacy Review
-* Vendor Risk Assessment
-* Legal Review (if applicable)
-* AI Risk Assessment
-* Control Assessment
-
-### Approval Status
-
-**Pending Completion of Required Governance Reviews**
 
 ---
 
