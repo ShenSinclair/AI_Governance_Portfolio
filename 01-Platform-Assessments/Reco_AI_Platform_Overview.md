@@ -6,13 +6,12 @@
 | ----------------- | --------------------------------------------------------------------------------------------- |
 | Platform Name     | Reco AI                                                                                       |
 | Assessment Type   | AI Platform Assessment                                                                        |
-| Assessment Owner  | Sheniell Sinclair, AI Governance Lead                                                                          |
-| Assessment Date   | June 06, 2026                                                                               |
+| Assessment Owner  | Sheniell Sinclair, AI Governance Lead                                                         |
+| Assessment Date   | June 2026                                                                                     |
 | Version           | 1.0                                                                                           |
-| Classification    | Internal / Public Portfolio                                                                   |
 | Review Frequency  | Annual or Upon Material Platform Change                                                       |
 | Assessment Status | Governance Review                                                                             |
-| Related Artifacts | AI Inventory, AI Risk Assessment, Vendor Assessment, Data Flow Mapping, DPIA, Security Review |
+| Related Artifacts | AI Risk Assessment, Control Library, Model Card, Executive Memos, Roadmaps |
 
 ---
 
@@ -464,9 +463,9 @@ Ensure ongoing compliance and governance effectiveness.
 **AI Governance Office**
 
 ------------------------------------------
-**Sources:** This assessment was developed using publicly available vendor documentation, product information, technical resources, and governance analysis available at the time of review.
+*Sources: This assessment was developed using publicly available vendor documentation, product information, technical resources, and governance analysis available at the time of review.*
 
-**Note:** Due to the rapidly evolving nature of AI technologies, platform capabilities, integrations, and regulatory requirements may change over time. A re-evaluation should be conducted prior to final approval, procurement, or production deployment to validate current functionality, risks, and governance considerations.
+*Note: Due to the rapidly evolving nature of AI technologies, platform capabilities, integrations, and regulatory requirements may change over time. A re-evaluation should be conducted prior to final approval, procurement, or production deployment to validate current functionality, risks, and governance considerations.*
 
 
 
