@@ -1,2 +1,3 @@
 # Risk Assessment
-Stores AI risk assessment materials for specific use cases, models, systems, or business processes. This folder may include risk registers, impact assessments, inherent and residual risk ratings, mitigation plans, and evidence supporting risk decisions.
+This folder contains risk assessment documents that evaluate the potential risks associated with AI platforms, systems, use cases, and business processes. Each assessment identifies and analyzes key risk domains such as security, privacy, compliance, operational, third-party, and reputational risk, while documenting potential impacts, likelihood, mitigation strategies, and ownership responsibilities. Assessments may also include risk registers, inherent and residual risk ratings, impact analyses, mitigation plans, and supporting evidence to help organizations make informed risk-based decisions regarding the adoption, deployment, and governance of AI technologies.
+
