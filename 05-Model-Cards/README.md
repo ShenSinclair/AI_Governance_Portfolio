@@ -1,2 +1,3 @@
 # Model Cards
-Stores model cards and structured documentation for AI/ML models. These documents summarize model purpose, intended use, limitations, training data, evaluation results, ethical considerations, performance metrics, known risks, and approval status.
+Stores AI governance model cards that provide a standardized summary of AI platforms, systems, or services and their governance requirements within an organization. Each model card documents key information such as platform purpose, intended and prohibited use cases, ownership, data considerations, risks, required controls, monitoring expectations, human oversight requirements, and approval status. These documents serve as governance artifacts that help stakeholders, auditors, leadership, and future governance teams understand how AI technologies are managed, monitored, and governed throughout their lifecycle.
+
