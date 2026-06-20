@@ -214,7 +214,7 @@ Platforms that do not satisfy these requirements may be denied approval, approve
 
 # Section 5: Control Requirements
 
-To support the secure, compliant, and responsible use of Reco AI, the organization has established governance controls designed to address identified security, privacy, compliance, operational, and AI governance risks. These controls provide the foundation for ongoing oversight and risk management throughout the platform lifecycle.
+To support the secure, compliant, and responsible use of Reco AI, the organization has established governance controls designed to address identified security, privacy, compliance, operational, and AI governance risks. These controls map to NIST AI RMF, NIST 800-53 Rev. 5 and provide the foundation for ongoing oversight and risk management throughout the platform lifecycle.
 
 ## Identity & Access Management Controls
 
@@ -340,7 +340,7 @@ Access to Reco AI shall be protected through Role-Based Access Control (RBAC), M
 
 ## Responsible AI Governance Principle
 
-Reco AI shall be used to support responsible AI adoption across the organization by promoting transparency, accountability, risk management, and human oversight. The platform is intended to enhance governance capabilities and should not replace human judgment, regulatory obligations, security reviews, privacy assessments, or established organizational decision-making processes.
+> Reco AI shall be used to support responsible AI adoption across the organization by promoting transparency, accountability, risk management, and human oversight. The platform is intended to enhance governance capabilities and should not replace human judgment, regulatory obligations, security reviews, privacy assessments, or established organizational decision-making processes.
 ---
 
 # Section 7: Monitoring & Roadmap
